@@ -12,7 +12,7 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 /*
     Code Source de : https://github.com/abvadabra/forge-vault
  */
-@Mod(modid = "sqvault", name = "SqVault", acceptableRemoteVersions = "*")
+@Mod(modid = "sqvault", name = "SqVault", dependencies = "required-before:sqript@${version}", version = "1.0.0", acceptableRemoteVersions = "*")
 public class SqVault {
 
     @SideOnly(Side.SERVER)
@@ -36,7 +36,6 @@ public class SqVault {
         }
         economy = rsp.getProvider();
         ScriptManager.log.info("Economy successfully hooked up");
-
     }
 
 
