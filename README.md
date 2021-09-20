@@ -1,1 +1,1 @@
-# SqRichPresence
+# SqVault
