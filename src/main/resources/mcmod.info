@@ -1,8 +1,8 @@
 [
   {
-    "modid": "sqrichpresence",
-    "name": "SqRichPresence",
-    "description": "Discord RichPresence with Sqript !",
+    "modid": "sqvault",
+    "name": "sqvault",
+    "description": "Vault with Sqript !",
     "version": "1.0.0",
     "mcversion": "1.12.2",
     "url": "",
