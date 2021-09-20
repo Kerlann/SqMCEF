@@ -2,20 +2,12 @@ package fr.kerlann.expressions;
 
 import fr.kerlann.SqVault;
 import fr.nico.sqript.expressions.ScriptExpression;
-import fr.nico.sqript.meta.Expression;
-import fr.nico.sqript.meta.Feature;
 import fr.nico.sqript.structures.ScriptContext;
 import fr.nico.sqript.types.ScriptType;
 import fr.nico.sqript.types.primitive.TypeNumber;
 import net.minecraft.entity.player.EntityPlayer;
 import org.bukkit.Bukkit;
 
-
-@Expression(name = "Vault Expressions",
-        features = {
-                @Feature(name = "Player Money", description = "Returns Player money of player with the plugin \"vault\".", examples = "player's money", pattern = "{+player}['s] money", type = "number"),
-        }
-)
 public class ExprVault extends ScriptExpression {
 
     @Override
