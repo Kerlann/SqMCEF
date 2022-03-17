@@ -1,0 +1,14 @@
+on pre init:
+    set ${keyF4} to register key "F4" with displayName "test" and with categoryName "Minecraft"
+
+on key input:
+    if ${keyF4} is defined:
+        if ${keyF4} is pressed:
+            cef open gui with url "mod://darkrp/index.html"
+            cef execute js "window.vue.setWindowF4('test', 'test');"
+
+
+on cef handle query:
+    print url
+    if query is "username":
+        set success to player's name

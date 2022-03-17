@@ -22,5 +22,5 @@ eclipse
 run
 
 # run
-run/scripts/*
-!run/scripts/data.dat
+!run/scripts/*
+run/scripts/data.dat

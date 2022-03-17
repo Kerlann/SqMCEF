@@ -17,8 +17,5 @@ public class SqMCEF {
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent e) {
         MinecraftForge.EVENT_BUS.register(BrowserHud.class);
-        //browserHud = new BrowserHud("mod://darkrp/index.html");
-       // BrowserHud.addHud(browserHud);
-        System.out.println("register mod");
     }
 }
